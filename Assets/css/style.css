@@ -1,3 +1,6 @@
+/* =========================
+   VARIÁVEIS GLOBAIS
+========================= */
 :root {
     --primary-color: #110F44;
     --secondary-color: crimson;
@@ -10,6 +13,9 @@
     --menu-height: 65px;
 }
 
+/* =========================
+   RESET E CONFIGURAÇÕES BASE
+========================= */
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +39,9 @@ aside {
     unicode-bidi: isolate;
 }
 
+/* =========================
+   TIPOGRAFIA
+========================= */
 h1,
 h2,
 h3,
@@ -74,6 +83,9 @@ a {
     text-decoration: none;
 }
 
+/* =========================
+   MENU / NAVEGAÇÃO
+========================= */
 .menu {
     position: fixed;
     top: 0;
@@ -165,6 +177,9 @@ a {
     transform: translateX(-50%);
 }
 
+/* =========================
+   LAYOUT BASE DAS SEÇÕES
+========================= */
 .main-bg {
     background-image: url('../img/main-bg.svg');
     background-size: cover;
@@ -198,6 +213,9 @@ a {
     display: block;
 }
 
+/* =========================
+   SEÇÃO INTRO
+========================= */
 .intro-content {
     position: relative;
     /* top: -7rem; */
@@ -214,12 +232,14 @@ a {
     justify-content: center;
 }
 
-
 .intro-img img {
     max-width: 100%;
     max-height: auto;
 }
 
+/* =========================
+   SEÇÃO TOP 3
+========================= */
 .top3-content {
     max-width: 70rem;
     display: flex;
@@ -237,6 +257,9 @@ a {
     margin-bottom: 4rem;
 }
 
+/* =========================
+   SEÇÃO PROJECTS
+========================= */
 .grid-main-heading {
     margin-bottom: 1rem;
 }
@@ -278,6 +301,9 @@ a {
     transform: rotate(5deg);
 }
 
+/* =========================
+   GALERIA
+========================= */
 .gallery-img {
     width: 100%;
     max-width: 36rem;
@@ -293,6 +319,9 @@ a {
     transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
 
+/* =========================
+   TABELA
+========================= */
 .responsive-table {
     /* overflow-y: visible; */
     width: 100%;
@@ -325,6 +354,9 @@ table th {
     background-color: var(--light-gray-color);
 }
 
+/* =========================
+   SEÇÃO CONTATO
+========================= */
 .contact-text-content {
     display: flex;
     flex-flow: column wrap;
@@ -353,6 +385,9 @@ table th {
     grid-column: 1 / -1;
 }
 
+/* =========================
+   FORMULÁRIO
+========================= */
 .form-grid .form-group {
     min-width: 0;
 }
@@ -361,12 +396,10 @@ table th {
     grid-column: 1 / -1;
 }
 
-
 .form-group label {
     display: block;
     margin-bottom: 1rem;
 }
-
 
 .form-group input,
 .form-group textarea {
@@ -404,6 +437,9 @@ table th {
     color: var(--primary-color);
 }
 
+/* =========================
+   FOOTER
+========================= */
 .footer {
     text-align: center;
     font-size: 1.6rem;
@@ -418,10 +454,16 @@ table th {
     padding: 3rem;
 }
 
+/* =========================
+   MENU MOBILE
+========================= */
 .close-menu {
     display: none;
 }
 
+/* =========================
+   RESPONSIVIDADE
+========================= */
 @media (max-width: 800px) {
 
     .menu-spacing {
@@ -456,7 +498,6 @@ table th {
         height: auto;
         min-height: 100vh;
         text-align: center;
-
         display: none;
     }
 
