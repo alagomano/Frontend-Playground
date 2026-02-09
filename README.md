@@ -2,7 +2,7 @@
 
 Projeto front-end desenvolvido com foco em **prática de HTML, CSS e organização de layouts responsivos**, simulando uma landing page moderna e funcional.
 
-🔗 **Deploy:** https://github.com/alagomano/Frontend-Playground
+🔗 **Deploy:** https://frontend-simple.netlify.app/
 
 ---
 
