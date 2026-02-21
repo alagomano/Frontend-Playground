@@ -406,7 +406,7 @@ table th {
     font-size: 2rem;
     border: none;
     background: var(--white-color);
-    padding: 2rem 2.5rem;
+    padding: 1rem 1.5rem;
     width: 100%;
     outline: none;
 }
@@ -563,5 +563,59 @@ table th {
     .close-menu:checked~.close-menu-label::after {
         display: block;
         content: '×';
+    }
+
+    /* Footer compacta em telas médias */
+    .footer {
+        font-size: 1.5rem;
+        padding: 0 2rem;
+    }
+
+    .footer p {
+        padding: 2rem 1.5rem;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 430px) {
+    h1{
+        font-size: 6rem;
+    }
+
+    h2{
+        font-size: 3.5rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1.8rem;
+    }
+
+    #contact .contact-text-content h2{
+        font-size: 3.5rem;
+    }
+
+    .grid-main-heading{
+        margin-bottom: 5rem;
+    }
+
+    .contact-form{
+        grid-column: 1 / -1;
+    }
+
+    /* Footer ainda mais compacta em telas pequenas (fonte proporcional ao <p>: 1.8rem) */
+    .footer {
+        font-size: 0.5rem;
+        padding: 0 1rem;
+    }
+
+    .footer p {
+        /* padding: 0 1.25rem; */
+        font-size: 1.5rem;
+        height: 100%;
+        line-height: 1.45;
     }
 }
